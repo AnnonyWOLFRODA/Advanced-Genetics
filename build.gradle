@@ -19,10 +19,6 @@ repositories {
 		name = 'Curse Maven'
 		url = 'https://cursemaven.com'
 	}
-	maven {
-		name = 'Ladysnake Mods'
-		url = 'https://maven.ladysnake.org/releases'
-	}
 }
 
 dependencies {
@@ -47,8 +43,8 @@ dependencies {
 	}
 
 	// Cardinal Components API
-	include modImplementation("dev.onyxstudios.cardinal-components-api:cardinal-components-base:5.0.1")
-	include modImplementation("dev.onyxstudios.cardinal-components-api:cardinal-components-entity:5.0.1")
+	modImplementation files('libs/cardinal-components-base-5.0.1.jar')
+    	modImplementation files('libs/cardinal-components-entity-5.0.1.jar')
 }
 
 processResources {
