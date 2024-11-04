@@ -25,6 +25,7 @@ To report issue, add a translation, or make a feature suggestion, please open a 
 * TechnoVision - Developer
 * KirboCabana - Artist
 * TheUnderTaker11 - Artist
+* DomiIRL - Contributor
 
 # License
 
